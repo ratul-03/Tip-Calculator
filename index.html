@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <div class="top_body">
+    <div class="logo_area">
+      <h2>Tip Calculator</h2>
+    </div>
+    <div id="form">
+      <label for="totalBill">Total Bill</label>
+      <input type="text" id="totalBill" placeholder="Enter Your Total Bill">
+      <label for="tipMain">Tip %</label>
+      <input type="text" id="tipMain" placeholder="Tip Amout">
+      <div class="peopleArea">
+        <p>People</p>
+        <div class="innerPeople">
+          <ul>
+            <li id="minusSum">-</li>
+            <li id="peopleSum">1</li>
+            <li id="plusSum">+</li>
+          </ul>
+          <button id="calculator">Calculate</button>
+        </div>
+      </div>
+    </div>
+    <div class="totalPerPerson">
+      <h2>Summary</h2>
+      <div>
+        <h3>Total Bill</h3>
+        <h4>$ <span id="finalBill">0</span></h4>
+      </div>
+      <div>
+        <h3>Tip Amount</h3>
+        <h4>$ <span id="tipAmount">0</span></h4>
+      </div>
+      <div>
+        <h3>Tax <span>5%</span></h3>
+        <h4>$ <span id="taxAmount">0</span></h4>
+      </div>
+      <hr>
+      <div>
+        <h3>Total Per Person</h3>
+        <h4>$ <span id="totalPerPerson">0</span></h4>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Common CSS */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: #130f40;
+  font-family: 'Itim', cursive;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1em;
+  margin: 0;
+}
+
+/* Custom CSS */
+.top_body {
+  width: 90%;
+  max-width: 600px;
+}
+
+.logo_area {
+  background: #00cec9;
+  text-align: center;
+}
+
+.logo_area h2 {
+  color: #2d3436;
+}
+
+.logo_area,
+.totalPerPerson,
+#form {
+  padding: 25px 35px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.totalPerPerson {
+  background: #1e272e;
+  margin-bottom: 0;
+  display: none;
+}
+
+#form {
+  background: #34495e;
+}
+
+#form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#form input {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: 0;
+  border-radius: 25px;
+  font-family: 'Itim', cursive;
+  width: 100%;
+  background: #353b48;
+  color: #fff;
+}
+
+.peopleArea {
+  margin-top: 20px;
+}
+
+.peopleArea p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.innerPeople {
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerPeople ul {
+  list-style: none;
+  display: flex;
+}
+
+.innerPeople ul li {
+  font-size: 20px;
+}
+
+#minusSum {
+  background: #e84118;
+}
+
+#plusSum {
+  background: #4cd137;
+}
+
+#minusSum, #plusSum {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 1px;
+  font-size: 30px;
+}
+
+#peopleSum {
+  margin: 5px 20px 0;
+  font-size: 30px;
+}
+
+#calculator {
+  background: #8c7ae6;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 35px;
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#calculator:hover {
+  background: #487eb0;
+}
+
+.totalPerPerson div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPerPerson hr {
+  border: 2px dashed #ddd;
+  margin-bottom: 10px;
+}
+
+.totalPerPerson h2 {
+  color: #4cd137;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.totalPerPerson h3, h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
