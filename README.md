@@ -21,9 +21,13 @@ This project is a simple web-based Tip Calculator built using HTML, CSS, and Jav
 ## Installation
 To run this project locally, follow these steps
 Clone the repository
+``` bash
 git clone https://github.com/ratul-03/Tip-Calculator.git
+```
 Navigate to the project directory
+``` bash
 cd Tip-Calculator
+```
 Open index.html in your web browser.
 ## Usage
 - Enter the total bill amount.
